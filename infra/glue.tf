@@ -25,7 +25,7 @@ resource "aws_glue_job" "data_processing_job" {
   
   # Define o tipo de job
   worker_type = "G.1X"
-  number_of_workers = 1
+  number_of_workers = 2
   
   # Define o tempo máximo de execução em minutos.
   timeout = 5 # 5 minutos
