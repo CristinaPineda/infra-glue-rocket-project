@@ -1,0 +1,8 @@
+project_name            = "rocket-project"
+environment             = "dev"
+aws_region              = "sa-east-1"
+lambda_function_name    = "rocket-project-dev-lambda"
+aws_statefile_s3_bucket = "rocket-project-statefiles"
+glue_execution_role_arn = "arn:aws:iam:sa-east-1:063630845645:role/rocket-project-dev-glue-execution-role"
+script_bucket_name      = "rocket-project-glue-dev-scripts"
+data_bucket_name        = "rocket-project-glue-dev-data"
